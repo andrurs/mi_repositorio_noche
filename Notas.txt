@@ -1,0 +1,89 @@
+============CLASE 2==================0
+
+SISTEMA CONTROL DE VERSIONES (VCS)
+Los proyectos de Software avanzan gradualmete, esto significa una nueva versión
+
+	vamos a usar un método llamado GIT
+	
+GIT-> Es <<open source>>, ideado por Linux Torvalds, está enfocado en código fuente (archivos planos).
+
+	◙ La unidad con la cual trabaja GIT  se conoce como Repositorio. Tiene el código fuente y otros archivos que le permiten realizar el control de versiónes
+	
+	◙ COMANDOS:
+	
+	commint 		-> cada versión se puede considerar un punto en el tiempo. asi podemos viajar sobre la linea de tiempo
+	
+	GIT trabaja con tres escenarios
+		♦ 1. working directory
+		♦ 2. staging area
+		♦ 3. repository
+		
+	========================== C L A S E 3 ===========================
+
+	A las ramas se les conoce como (branch). la rama por defecto se conoce como master
+	
+	♦ ◙ ♦ Podemos cabiar de rama solamente si no tenemos cambios pendientes por realizar (commint)
+	
+	♦ GIT trabaja de manera descentralizada
+	
+	♦ Las plataformas más usadas para el control de versiónes son: 
+	
+	============================= C L A S E  4 ================================
+	
+	LENGUAJE DE ALTO NIVEL
+	
+	♫ INTRODUCCIÓN
+		Formado por 3 elementos
+			♪ léxico 			-> pequeñas partes que ayudan a conformar más palabras de la principal  
+			♪ sintaxis			-> es la forma en que se puede construir una frase
+			♪ semántica			-> asocioa todas las fraces para darle sentido a el texto
+			
+	♫ CLASIFICACIÓN DE LO QUE ES EL LENGUAJE DE PROGRAMACIÓN
+	
+		Sirve para darle a la maquina una orden, son dados a partir de lenguaje matematico, 
+		por eso los pc hacen exactamente lo que se les dice, no lo que se espera.
+		El lenguaje es secuencial 
+		Contienen alto nivel de abstracción
+		
+		se clasifica así:
+			♪ Lenguaje de máquina o de bajo nivel
+			♪ Lenguaje ensamblador o nivel medio 
+			♪ Lenguaje de alto nivel 
+			♪ Lenguaje naturales
+			
+	♫ CARACTERISTICAS
+			♪ Abstracción		-> Oculta detalles complejos, permite centrarse en lo que se debe hacer
+			♪ Sintaxis			-> Palabras y simbolos facil de entender
+			♪ Portabilidad		-> Ejecutable en diferentes tipos de dispositivos
+			♪ Facilidad de uso	-> Comando claros y herramientas útiles que facilitan la escritura y prueba de código
+			♪ Productividad		-> Ayudan a escribir un código y crear funciones más rápido
+			♪ Gestión Aut-Memoria-> No hay que preocuparse de asignar y liberar memoria manualmente
+			♪ Depuración y manejo de errores mejorados -> Incorporan herramientas que facilitan
+			♪ Bibliotecas		-> Incluyen fragmentos de código prescritos que ayudan a manejar tareas comunes
+			
+	♫ VENTAJAS
+			♪ Fáciles de aprender 
+			♪ Bibliotecas 
+			♪ Uso portátil 
+			♪ Mayor nivel de abstracción
+			
+	♫ DESVENTAJAS
+			♪ Lentos, más nivel de abstracción con el hardware
+			♪ Menos control sobre el hardware
+			♪ Menos rendimiento a nivel de CPU
+			
+	♫ USOS
+			♪ Desarrollo web
+			♪ Análisis de datos
+			♪ DBMS (Sistemas de gestión de BD)
+			♪ Desarrollo de juegos
+			
+	♫ INTERPRETE Y COMPILADOR 
+		Proceso de compilación 	-> lo hacen lenguajes como java, c++
+		Interpretación			-> python y otros
+		
+		
+		
+ .venv 			-> virtual environment -> interfaz virtual
+ 
+ 

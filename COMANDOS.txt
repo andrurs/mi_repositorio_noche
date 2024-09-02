@@ -1,0 +1,67 @@
+============CLASE 2==================0
+
+	
+	init     ◙ git init			-> iniciar un repositorio: 
+	
+	commint  ◙ git commint		-> Crear un punto en la Historia del repositorio. Se debe usar cuando se tiene un grupo de cambios.
+	-m				            -> Abreviación de message. (git commint -m "aaaaa": quiere decir que despues del punto le agrege un dato String).
+	
+	git config --global user.name "Andres Rodriguez"  -> Entro a la configuración --le digo que es global y me registro
+	
+	◙ git config --global core.autocrlf true  -> es para que el código se pueda trabajar de manera global, desde distintos S.O. se activa el crlf
+	
+	◙ git add 					-> para pasar del ♦ 1. working directory -- a --> ♦ 2. staging area
+	
+		COMANDOS DE LA staging area
+			◙ git status		-> muestra los cambios que están agregados y cuales no
+			◙ git add <file>	-> para agregar un cambio
+			◙ git rm <file>		-> para retirar un cambio
+			
+	◙ git clone 				-> nos sirve para clonar un repositorio
+	
+	◙ git lot 					-> visualizar la historia del repositorio, historioa dada por los commint realizados
+	
+cada commint se identifica con un SHA, el cual no es más que una combinación de números y letras
+
+	◙ git checkout				-> podemos viajar entre versiones, visitar un commint y el estado del código en ese punto.
+									Solo necesitasmo conocer su SHA
+				♦ main -> para volver a el último punto 
+				
+========================== V I D E O S ========================================
+				
+	◙ git config --global core.editor "code --wait"  -> se usa para configurar vs code como editor de texto predetermiando
+					♦ --wait 	-> lo usamos para que el la consola nos espere hasta que cerremos el editor de texto
+				
+	◙ git config -e 			-> lo usamos para abrir el vs code.
+	
+	
+	git config -h 				-> vara ver todas las posibles configuraciónes
+	
+	◙ ls						-> para listar lo que tenemos en nuestra ubicación
+	◙ pwd 						-> para ver nuestra ubicación
+	◙ mkdir 					-> para crear un directorio
+	
+	
+	◙ git branch 				-> miramos en que rama estámos
+	◙ git checkout -b '<rama>'	-> crear una nueva rama o cambiarnos a una
+	◙ cat <archivo>				-> nos muestra el contenido del archivo
+	
+	para traernos los cambios de la ramab a la rama main tenemos que estar wn la rama main y escribimos:
+	 ◙ git merge ramab			-> pasar de una rama a la main
+	 
+	◙ git log --oneline			-> muestra status corto
+	
+
+
+
+========================== C L A S E 3 ===========================
+
+	◙ git branch -m <main>		-> cambiamos el nombre de la rama 
+	
+	♦ HEAD es una palabra reservada que nos da la ubicación actual o para saber siémpre dónde estamos, HEAD apunta a un commint específico
+	
+	◙ git reset					-> hace que el HEAD apunte a un commint previo al actual.
+	
+	◙ git push 	origin <rama>	-> empujar la rama secundaria al repositorio
+	
+	◙ git pull origin <rama> 	-> para bajar los cambios del rep remoto al rep local
